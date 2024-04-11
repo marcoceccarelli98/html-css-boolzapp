@@ -1,0 +1,48 @@
+/*--- DESKTOP ---*/
+@media screen and (min-width: 992px) {
+
+    /* DEBUG */
+    .debug header::after {
+        content: 'DESKTOP';
+    }
+
+    /*----------
+       LAYOUT 
+    ----------*/
+    .container {
+        max-width: 960px;
+    }
+
+    /*----------
+       HEADER 
+    ----------*/
+    .only-mobile {
+        display: none;
+    }
+
+    .only-desktop {
+        display: block;
+    }
+
+    /*----------
+        MAIN
+    ----------*/
+
+}
+
+/*--- DESKTOP XL ---*/
+@media screen and (min-width: 1200px) {
+
+    /* DEBUG */
+    .debug header::after {
+        content: 'DESKTOP XL';
+    }
+
+    /*----------
+       LAYOUT 
+    ----------*/
+    .container {
+        max-width: 1140px;
+    }
+
+}

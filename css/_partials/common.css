@@ -1,0 +1,13 @@
+/*----------
+    DEBUG
+ ----------*/
+
+.debug header::after {
+    content: 'MOBILE';
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
