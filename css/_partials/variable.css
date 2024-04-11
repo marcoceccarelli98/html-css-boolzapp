@@ -2,4 +2,11 @@
   VARIABLE
  ----------*/
 
-:root {}
+:root {
+  --top-bar: #EAEAEA;
+  --bottom-bar: #F3EEEB;
+  /* Backgrounds */
+  --bg-green: #009587;
+  --bg-grey: #DCDBD1;
+  --bg-notification: #8FDAFC;
+}

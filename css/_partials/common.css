@@ -11,3 +11,11 @@
     background-color: black;
     color: white;
 }
+
+/*--------------------
+       COMMON
+--------------------*/
+
+body {
+    height: 100vh;
+}
