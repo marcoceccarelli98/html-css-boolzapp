@@ -67,6 +67,40 @@ main {
 #message {
     height: calc(100% - 200px);
     background-image: url('/img/mine.jpg');
+    padding: 40px 30px;
+}
+
+#message .message-box {
+    font-size: 19px;
+    position: relative;
+    border-radius: 20px;
+    padding: 20px 30px 30px 20px;
+    width: 80%;
+    margin-bottom: 15px;
+}
+
+#message .message-sent {
+    float: right;
+    background-color: var(--bg-message-sent);
+}
+
+#message .message-received {
+    background-color: white;
+}
+
+#message .message-box i {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    color: var(--grey);
+}
+
+#message .message-box .time {
+    position: absolute;
+    font-size: 15px;
+    bottom: 5px;
+    right: 15px;
+    color: var(--grey);
 }
 
 /* SECTION WRITE */
