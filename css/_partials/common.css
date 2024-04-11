@@ -2,7 +2,7 @@
     DEBUG
  ----------*/
 
-.debug header::after {
+.debug main::after {
     content: 'MOBILE';
     position: fixed;
     bottom: 0;

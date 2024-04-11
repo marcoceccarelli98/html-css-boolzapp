@@ -2,7 +2,7 @@
 @media screen and (min-width: 768px) {
 
     /* DEBUG */
-    .debug header::after {
+    .debug main::after {
         content: 'TABLET';
     }
 

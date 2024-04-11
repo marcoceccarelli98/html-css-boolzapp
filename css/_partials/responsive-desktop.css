@@ -2,7 +2,7 @@
 @media screen and (min-width: 992px) {
 
     /* DEBUG */
-    .debug header::after {
+    .debug main::after {
         content: 'DESKTOP';
     }
 
@@ -34,7 +34,7 @@
 @media screen and (min-width: 1200px) {
 
     /* DEBUG */
-    .debug header::after {
+    .debug main::after {
         content: 'DESKTOP XL';
     }
 
