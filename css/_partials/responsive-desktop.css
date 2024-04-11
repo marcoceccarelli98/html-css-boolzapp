@@ -28,6 +28,14 @@
         MAIN
     ----------*/
 
+    /*------------
+     COLUMN USERS
+    ------------*/
+
+    .col-users {
+        width: 500px;
+    }
+
 }
 
 /*--- DESKTOP XL ---*/
