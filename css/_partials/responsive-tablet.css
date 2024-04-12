@@ -29,4 +29,19 @@
         width: 100%;
     }
 
+    /*--------------------
+    COLUMN MESSAGE
+--------------------*/
+
+    #name .content-left {
+        width: 70%;
+    }
+
+    #name .content-right {
+        display: flex;
+        width: 30%;
+        align-items: center;
+        justify-content: end;
+        padding-right: 20px;
+    }
 }

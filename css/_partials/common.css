@@ -21,6 +21,7 @@ body {
     font-weight: 100;
     font-style: normal;
     height: 100vh;
+    display: flex;
 }
 
 main {
@@ -125,6 +126,10 @@ main {
     overflow-y: scroll;
 }
 
+#users .user-content {
+    background-color: white;
+}
+
 .user-name {
     max-width: 200px;
     overflow: hidden;
@@ -152,6 +157,20 @@ main {
 
 #name .content-name p:last-child {
     color: grey;
+}
+
+#name .content-left {
+    width: 100%;
+}
+
+#name .content-right {
+    display: none;
+}
+
+#name .content-right i {
+    padding: 0 10px;
+    font-size: 25px;
+    color: var(--grey);
 }
 
 /* SECTION MESSAGE */
@@ -198,7 +217,7 @@ main {
 /* SECTION WRITE */
 #write {
     height: 80px;
-    padding: 15px 30px;
+    padding: 0 20px;
     background-color: var(--bottom-bar);
 }
 
