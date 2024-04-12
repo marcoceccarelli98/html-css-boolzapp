@@ -74,7 +74,56 @@ main {
     color: var(--grey);
 }
 
+/* NOTIFICATION */
+#notification {
+    display: flex;
+    height: 100px;
+    background-color: var(--bg-notification);
+}
+
+#notification i {
+    font-size: 30px;
+    padding: 20px 17px;
+    color: var(--bg-notification);
+    background-color: #F2FBFF;
+    border-radius: 50%;
+    margin: 15px;
+}
+
+#notification a {
+    color: grey;
+}
+
+/* SEARCH */
+#search {
+    height: 60px;
+    background-color: #FAFAFA;
+    padding: 10px;
+}
+
+.search-bar {
+    padding: 10px;
+    background-color: white;
+    border: 1px solid var(--grey);
+    border-radius: 1px;
+}
+
+.search-bar input {
+    height: 16px;
+    border: none;
+}
+
+.search-bar i {
+    color: var(--grey);
+    font-size: 18px;
+    padding: 0 10px;
+}
+
 /* USERS */
+#users {
+    height: calc(100% - 80px);
+    overflow-y: scroll;
+}
 
 .user-name {
     max-width: 200px;

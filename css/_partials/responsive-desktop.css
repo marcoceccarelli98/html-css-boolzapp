@@ -42,6 +42,10 @@
     }
 
     /* USERS */
+    #users {
+        height: calc(100% - 240px);
+    }
+
     .users-box {
         width: 100px;
     }
