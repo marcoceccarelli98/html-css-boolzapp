@@ -36,13 +36,27 @@
         width: 600px;
     }
 
+    /* MY USER */
     .my-user-box {
         width: 100px;
     }
 
+    /* USERS */
     .users-box {
         width: 100px;
     }
+
+    .user-name p:last-child {
+        color: var(--grey);
+    }
+
+    .user-time span {
+        position: absolute;
+        right: 20px;
+        top: 25px;
+        color: var(--grey);
+    }
+
 
 }
 

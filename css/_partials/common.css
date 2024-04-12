@@ -46,20 +46,6 @@ main {
     display: none;
 }
 
-.my-user-box {
-    height: 80px;
-    display: flex;
-    padding: 0 20px;
-}
-
-#my-user i {
-    padding-left: 20px;
-    font-size: 25px;
-    color: var(--grey);
-}
-
-
-
 .user-content {
     display: flex;
     border-bottom: 1px solid lightgray;
@@ -74,6 +60,25 @@ main {
 
 #my-user {
     background-color: var(--top-bar);
+}
+
+.my-user-box {
+    height: 80px;
+    display: flex;
+    padding: 0 20px;
+}
+
+#my-user i {
+    padding-left: 20px;
+    font-size: 25px;
+    color: var(--grey);
+}
+
+/* USERS */
+
+.user-name {
+    max-width: 200px;
+    overflow: hidden;
 }
 
 /*--------------------
