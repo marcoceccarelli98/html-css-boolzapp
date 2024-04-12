@@ -22,6 +22,11 @@
     .col-users {
         display: block;
         width: 100px;
+        border-right: 1px solid var(--grey);
+    }
+
+    .users-box {
+        width: 100%;
     }
 
 }

@@ -129,6 +129,11 @@
 }
 
 /* MARGIN */
+
+.margin-auto {
+    margin: auto;
+}
+
 .margin-5 {
     margin: 5%;
 }

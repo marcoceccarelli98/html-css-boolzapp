@@ -28,12 +28,44 @@ main {
     width: 100%;
 }
 
+.only-desktop {
+    display: none;
+}
+
+.user-icon {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
 /*--------------------
      COLUMN USERS
 --------------------*/
 
 .col-users {
     display: none;
+}
+
+.my-user-box {
+    height: 80px;
+    display: flex;
+    padding: 0 20px;
+}
+
+.user-content {
+    display: flex;
+    border-bottom: 1px solid lightgray;
+}
+
+.users-box {
+    height: 100px;
+    display: flex;
+}
+
+/* MY USER */
+
+#my-user {
+    background-color: var(--top-bar);
 }
 
 /*--------------------
@@ -53,9 +85,6 @@ main {
 }
 
 #name img {
-    height: 60px;
-    width: 60px;
-    border-radius: 50%;
     margin: 0 30px;
 }
 
