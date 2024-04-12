@@ -130,6 +130,11 @@ main {
     background-color: white;
 }
 
+#users .user-content:hover {
+    background-color: var(--top-bar);
+
+}
+
 .user-name {
     max-width: 200px;
     overflow: hidden;
