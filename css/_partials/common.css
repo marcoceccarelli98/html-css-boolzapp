@@ -216,13 +216,18 @@ main {
 
 /* SECTION WRITE */
 #write {
+    padding: 0 30px;
     height: 80px;
-    padding: 0 20px;
     background-color: var(--bottom-bar);
 }
 
+#write i {
+    display: none;
+    padding: 0 20px;
+}
+
 #write input {
-    height: 100%;
+    height: 70%;
     width: 100%;
     border-radius: 10px;
     border-style: none;

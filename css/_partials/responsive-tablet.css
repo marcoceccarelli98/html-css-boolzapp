@@ -30,8 +30,8 @@
     }
 
     /*--------------------
-    COLUMN MESSAGE
---------------------*/
+        COLUMN MESSAGE
+    --------------------*/
 
     #name .content-left {
         width: 70%;
@@ -43,5 +43,13 @@
         align-items: center;
         justify-content: end;
         padding-right: 20px;
+    }
+
+    #write {
+        padding: 0;
+    }
+
+    #write i {
+        display: inline-block;
     }
 }
