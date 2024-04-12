@@ -52,14 +52,22 @@ main {
     padding: 0 20px;
 }
 
+#my-user i {
+    padding-left: 20px;
+    font-size: 25px;
+    color: var(--grey);
+}
+
+
+
 .user-content {
     display: flex;
     border-bottom: 1px solid lightgray;
 }
 
 .users-box {
-    height: 100px;
     display: flex;
+    height: 100px;
 }
 
 /* MY USER */
